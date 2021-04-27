@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/*
 html,
 body,
 div,
@@ -83,10 +83,18 @@ summary,
 time,
 mark,
 audio,
-video,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
+*/
 /* HTML5 display-role reset for older browsers */
-
+/*
 article,
 aside,
 details,
@@ -97,19 +105,34 @@ header,
 hgroup,
 menu,
 nav,
-section
+section {
+    display: block;
+}
 
-body 
+body {
+    line-height: 1;
+}
 
 ol,
-ul 
+ul {
+    list-style: none;
+}
 
 blockquote,
-q 
+q {
+    quotes: none;
+}
 
 blockquote:before,
 blockquote:after,
 q:before,
-q:after,
+q:after {
+    content: "";
+    content: none;
+}
 
-table,
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*/
