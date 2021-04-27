@@ -4,28 +4,28 @@ let userName = prompt('Hello, Could you please enter your name');
 console.log('Your name is : '+userName);
 alert('Hello '+userName +' Welcome to my website, best wishes :) ');
 
-let mood = prompt('Are you happy? Please answer yes or no y/n !');
-console.log('Your mood is: '+mood);
-alert('Your mood is: '+mood);
+let myName = prompt('Do you know my name? Please answer yes or no y/n !');
+console.log('Your answer is: '+myName);
+alert('Your answer is: '+myName);
 
 
-switch (mood.toUpperCase()) {
+switch (myName.toUpperCase()) {
     case 'YES':
     case 'Y':
-        console.log('Great you are ok, have a nice day');
-        alert('Great, you are ok, have a nice day');
+        console.log('Great you are know my name, have a nice day');
+        alert('Great, you are know my name, have a nice day');
         break;
     case 'NO':
     case 'N':   
-         console.log('Ooh no , you should to do something to change your mood, Good Luck');
-         alert('Ooh no , you should to do something to change your mood, Good Luck');
+         console.log('Ooh no , you do not know my name, and my name is Bashar , Nice to meet you :)');
+         alert('Ooh no , you do not know my name, and my name is Bashar , Nice to meet you :)');
          break;
     default:
         alert('Please Take care to your self :)');         
 }
 
 
-let gym = prompt('Do you like to go to the gym? Please answer yes or no y/n !');
+let gym = prompt('Do I like go to the gym? Please answer yes or no y/n !');
 console.log('Your amswer is: '+gym);
 alert('Your answer is: '+gym);
 
@@ -33,13 +33,13 @@ alert('Your answer is: '+gym);
 switch (gym.toUpperCase()) {
     case 'YES':
     case 'Y':
-        console.log('Great, You are like gym, So register to your favorite gym now :)');
-        alert('Great, You are like gym, So register to your favorite gym now');
+        console.log('Great, I like go the the gym, I hope to meet you there :)');
+        alert('Great, I like go the the gym, I hope to meet you there :)');
         break;
     case 'No':
     case 'N':
-            console.log('Ooh no, I hope you to take care of your health');
-            alert('Ooh no, I hope you to take care of your health');
+            console.log('Ooh no, that is not correct answer :(');
+            alert('Ooh no, that is not correct answer :(');
             break;
         default:
             alert('Please Take care to your self :)');
@@ -47,7 +47,7 @@ switch (gym.toUpperCase()) {
 }
 
 
-let movies = prompt('Do you like movies? Please answer yes or no y/n !');
+let movies = prompt('Do I like movies? Please answer yes or no y/n !');
 console.log('Your amswer is: '+movies);
 alert('Your answer is: '+movies);
 
@@ -55,13 +55,13 @@ alert('Your answer is: '+movies);
 switch (movies.toUpperCase()) {
     case 'YES':
     case 'Y':
-        console.log('Great, You are like movies, So you are welcome to my website now :)');
-        alert('Great, You are like movies, So you are welcome to my website now :)');
+        console.log('Great, I am like movies, So you are welcome to my website now :)');
+        alert('Great, I am like movies, So you are welcome to my website now :)');
         break;
     case 'No':
     case 'N':
-            console.log('Ooh no, I hope you to have a nice day');
-            alert('Ooh no, I hope you to have a nice day ');
+            console.log('Ooh no, that is not correct answer');
+            alert('Ooh no, that is not correct answer ');
             break;
         default:
             alert('Please Take care to your self :)');
@@ -69,7 +69,7 @@ switch (movies.toUpperCase()) {
 
 
 
-let swim = prompt('Do you like swim? Please answer yes or no y/n !');
+let swim = prompt('Do I like swim? Please answer yes or no y/n !');
 console.log('Your amswer is: '+swim);
 alert('Your answer is: '+swim);
 
@@ -77,13 +77,13 @@ alert('Your answer is: '+swim);
 switch (swim.toUpperCase()) {
     case 'YES':
     case 'Y':
-        console.log('Great, You are like me, So do not forget to go swimming today :)');
-        alert('Great, You are like me, So do not forget to go swimming today :)');
+        console.log('Great, I am like a swimming, I hope you to like a swim also :)');
+        alert('Great, I am like a swimming, I hope you to like a swim also :)');
         break;
     case 'No':
     case 'N':
-            console.log('Ooh no, I hope you to rethinking about swimming it is good to you :)');
-            alert('Ooh no, I hope you to rethinking about swimming it is good to you :)');
+            console.log('Ooh no, I am like swimming :)');
+            alert('Ooh no, I am like swimming :)');
             break;
         default:
             alert('Please Take care to your self :)');
@@ -92,21 +92,21 @@ switch (swim.toUpperCase()) {
 
 
 
-let color = prompt('Do you like yellow color? Please answer yes or no y/n !');
-console.log('Your amswer is: '+color);
-alert('Your answer is: '+color);
+let study = prompt('Did I study  accounting in universty? Please answer yes or no y/n !');
+console.log('Your amswer is: '+study);
+alert('Your answer is: '+study);
 
 
-switch (color.toUpperCase()) {
+switch (study.toUpperCase()) {
     case 'YES':
     case 'Y':
-        console.log('Good, You are like me, like a yellow color :)');
-        alert('Good, You are like me, like a yellow color :)');
+        console.log('Good, You know what I studied :)');
+        alert('Good, You know what I studied :)');
         break;
     case 'No':
     case 'N':
-            console.log('Oops , You do not like yellow color , So choose another color :)');
-            alert('Oops , You do not like yellow color , So choose another color :)');
+            console.log('Oops , You do not know what I studied , So I studied Accounting :)');
+            alert('Oops , You do not know what I studied , So I studied Accounting :)');
             break;
         default:
             alert('Please Take care to your self :)');
