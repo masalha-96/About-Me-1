@@ -1,6 +1,9 @@
 'use strict'
 
-let score = 0;
+function Qustions ()
+{
+
+    let score = 0;
 let userName = prompt('Hello, Could you please enter your name');
 console.log('Your name is : '+userName);
 alert('Hello '+userName +' Welcome to my website, best wishes :) ');
@@ -161,6 +164,7 @@ let count =0;
     alert('Your score is ' + score + ' out of 7');
 
     alert('You Did A Great Job , Thank You ' + userName +' :)');
+}
 
     
-    
+Qustions();
