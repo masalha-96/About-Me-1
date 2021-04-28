@@ -1,5 +1,9 @@
 'use strict'
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 24b6b6d6409c3595efb8c1f1935172a6cd03f9a5
 
 
 
@@ -11,6 +15,7 @@ alert('Hello ' + userName + ' Welcome to my website, best wishes :) ');
 
 
 
+<<<<<<< HEAD
 
 function Question1(myName) {
 
@@ -31,9 +36,35 @@ function Question1(myName) {
         default:
             alert('Please Take care to your self :)');
     }
+=======
+function Question1  (myName) {
+
+switch (myName.toUpperCase()) {
+    case 'YES':
+    case 'Y':
+        console.log('Great you know what my name is, have a nice day');
+        alert('Great, you know what my name is, have a nice day');
+        score++;
+        break;
+    case 'NO':
+    case 'N':   
+         console.log('Ooh no , you do not know what my name is, and my name is Bashar , Nice to meet you :)');
+         alert('Ooh no , you do not know what my name is, and my name is Bashar , Nice to meet you :)');
+         break;
+    default:
+        alert('Please Take care to your self :)');         
+>>>>>>> 24b6b6d6409c3595efb8c1f1935172a6cd03f9a5
+}
 }
 
+let myName = prompt('Do you know what my name is?? Please answer yes or no y/n !');
+console.log('Your answer is: '+myName);
+alert('Your answer is: '+myName);
+ 
+Question1 (myName);
 
+
+<<<<<<< HEAD
 let myName = prompt('Do you know what my name is?? Please answer yes or no y/n !');
 console.log('Your answer is: ' + myName);
 alert('Your answer is: ' + myName);
@@ -54,6 +85,20 @@ function Question2(gym) {
             break;
         case 'No':
         case 'N':
+=======
+
+
+function Question2 (gym) {
+switch (gym.toUpperCase()) {
+    case 'YES':
+    case 'Y':
+        console.log('Great, I like go to the gym, I hope to meet you there :)');
+        alert('Great, I like go to the gym, I hope to meet you there :)');
+        score++;
+        break;
+    case 'No':
+    case 'N':
+>>>>>>> 24b6b6d6409c3595efb8c1f1935172a6cd03f9a5
             console.log('Ooh no, that is not correct answer :(');
             alert('Ooh no, that is not correct answer :(');
             break;
@@ -63,8 +108,14 @@ function Question2(gym) {
 
     }
 }
+}
 
+let gym = prompt('Do I like go to the gym? Please answer yes or no y/n !');
+console.log('Your amswer is: '+gym);
+alert('Your answer is: '+gym);
+ Question2 (gym);
 
+<<<<<<< HEAD
 let gym = prompt('Do I like go to the gym? Please answer yes or no y/n !');
 console.log('Your amswer is: ' + gym);
 alert('Your answer is: ' + gym);
@@ -85,6 +136,21 @@ function Question3(movies) {
             break;
         case 'No':
         case 'N':
+=======
+
+
+function Question3 (movies) {
+
+switch (movies.toUpperCase()) {
+    case 'YES':
+    case 'Y':
+        console.log('Great, I am like movies, So you are welcome to my website now :)');
+        alert('Great, I am like movies, So you are welcome to my website now :)');
+        score++;
+        break;
+    case 'No':
+    case 'N':
+>>>>>>> 24b6b6d6409c3595efb8c1f1935172a6cd03f9a5
             console.log('Ooh no, that is not correct answer');
             alert('Ooh no, that is not correct answer ');
             break;
@@ -92,8 +158,13 @@ function Question3(movies) {
             alert('Please Take care to your self :)');
     }
 }
+}
 
+let movies = prompt('Do I like movies? Please answer yes or no y/n !');
+console.log('Your amswer is: '+movies);
+alert('Your answer is: '+movies);
 
+<<<<<<< HEAD
 let movies = prompt('Do I like movies? Please answer yes or no y/n !');
 console.log('Your amswer is: ' + movies);
 alert('Your answer is: ' + movies);
@@ -116,6 +187,23 @@ function Question4(swim) {
             break;
         case 'No':
         case 'N':
+=======
+Question3 (movies);
+
+
+
+function Question4 (swim) {
+
+switch (swim.toUpperCase()) {
+    case 'YES':
+    case 'Y':
+        console.log('Great, I am like a swimming, I hope you to like a swim also :)');
+        alert('Great, I am like a swimming, I hope you to like a swim also :)');
+        score++;
+        break;
+    case 'No':
+    case 'N':
+>>>>>>> 24b6b6d6409c3595efb8c1f1935172a6cd03f9a5
             console.log('Ooh no, I am like swimming :)');
             alert('Ooh no, I am like swimming :)');
             break;
@@ -123,8 +211,13 @@ function Question4(swim) {
             alert('Please Take care to your self :)');
     }
 }
+}
 
+let swim = prompt('Do I like swim? Please answer yes or no y/n !');
+console.log('Your amswer is: '+swim);
+alert('Your answer is: '+swim);
 
+<<<<<<< HEAD
 let swim = prompt('Do I like swim? Please answer yes or no y/n !');
 console.log('Your amswer is: ' + swim);
 alert('Your answer is: ' + swim);
@@ -146,6 +239,22 @@ function Question5(study) {
             break;
         case 'No':
         case 'N':
+=======
+Question4 (swim);
+
+
+function Question5 (study) {
+
+switch (study.toUpperCase()) {
+    case 'YES':
+    case 'Y':
+        console.log('Good, You know what I studied :)');
+        alert('Good, You know what I studied :)');
+        score++;
+        break;
+    case 'No':
+    case 'N':
+>>>>>>> 24b6b6d6409c3595efb8c1f1935172a6cd03f9a5
             console.log('Oops , You do not know what I studied , So I studied Accounting :)');
             alert('Oops , You do not know what I studied , So I studied Accounting :)');
             break;
@@ -153,7 +262,19 @@ function Question5(study) {
             alert('Please Take care to your self :)');
     }
 }
+}
 
+let study = prompt('Did I study  accounting in universty? Please answer yes or no y/n !');
+console.log('Your amswer is: '+study);
+alert('Your answer is: '+study);
+
+Question5 (study);
+
+
+
+function Question6 (myOld) {
+
+<<<<<<< HEAD
 
 let study = prompt('Did I study  accounting in universty? Please answer yes or no y/n !');
 console.log('Your amswer is: ' + study);
@@ -172,6 +293,13 @@ function Question6(myOld) {
         myOld = Number(prompt('How old I am ? \nPlease Make sure your answer is a NUMBER'));
     }
     for (let i = 0; i < 3; i++) {
+=======
+  while (!myOld) {
+         myOld = Number(prompt('How old I am ?'));
+         }
+     for (let i = 0; i < 3; i++) 
+     {
+>>>>>>> 24b6b6d6409c3595efb8c1f1935172a6cd03f9a5
         if (myOld !== 28) {
             alert('too bad my old not ' + myOld);
             if (myOld > 26 && myOld < 30) { alert('your guess is too high'); }
@@ -215,6 +343,7 @@ function Question6(myOld) {
     alert('You Did A Great Job , Thank You ' + userName + ' :)');
 }
 
+<<<<<<< HEAD
 
 let count = 0;
 let myOld = Number(prompt('How old I am ?'));
@@ -224,5 +353,11 @@ Question6(myOld);
 
 
 
+=======
+let count =0;
+  let myOld = Number(prompt('How old I am ?'));
+
+  Question6 (myOld);
+>>>>>>> 24b6b6d6409c3595efb8c1f1935172a6cd03f9a5
 
 
