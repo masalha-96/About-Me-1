@@ -1,17 +1,16 @@
 'use strict'
 
-function Qustions ()
-{
+
 
     let score = 0;
 let userName = prompt('Hello, Could you please enter your name');
 console.log('Your name is : '+userName);
 alert('Hello '+userName +' Welcome to my website, best wishes :) ');
 
-let myName = prompt('Do you know what my name is?? Please answer yes or no y/n !');
-console.log('Your answer is: '+myName);
-alert('Your answer is: '+myName);
 
+
+
+function Question1  (myName) {
 
 switch (myName.toUpperCase()) {
     case 'YES':
@@ -28,18 +27,23 @@ switch (myName.toUpperCase()) {
     default:
         alert('Please Take care to your self :)');         
 }
+}
+
+let myName = prompt('Do you know what my name is?? Please answer yes or no y/n !');
+console.log('Your answer is: '+myName);
+alert('Your answer is: '+myName);
+ 
+Question1 (myName);
 
 
-let gym = prompt('Do I like go to the gym? Please answer yes or no y/n !');
-console.log('Your amswer is: '+gym);
-alert('Your answer is: '+gym);
 
 
+function Question2 (gym) {
 switch (gym.toUpperCase()) {
     case 'YES':
     case 'Y':
-        console.log('Great, I like go the the gym, I hope to meet you there :)');
-        alert('Great, I like go the the gym, I hope to meet you there :)');
+        console.log('Great, I like go to the gym, I hope to meet you there :)');
+        alert('Great, I like go to the gym, I hope to meet you there :)');
         score++;
         break;
     case 'No':
@@ -51,12 +55,16 @@ switch (gym.toUpperCase()) {
             alert('Please Take care to your self :)');
 
 }
+}
+
+let gym = prompt('Do I like go to the gym? Please answer yes or no y/n !');
+console.log('Your amswer is: '+gym);
+alert('Your answer is: '+gym);
+ Question2 (gym);
 
 
-let movies = prompt('Do I like movies? Please answer yes or no y/n !');
-console.log('Your amswer is: '+movies);
-alert('Your answer is: '+movies);
 
+function Question3 (movies) {
 
 switch (movies.toUpperCase()) {
     case 'YES':
@@ -73,13 +81,17 @@ switch (movies.toUpperCase()) {
         default:
             alert('Please Take care to your self :)');
 }
+}
+
+let movies = prompt('Do I like movies? Please answer yes or no y/n !');
+console.log('Your amswer is: '+movies);
+alert('Your answer is: '+movies);
+
+Question3 (movies);
 
 
 
-let swim = prompt('Do I like swim? Please answer yes or no y/n !');
-console.log('Your amswer is: '+swim);
-alert('Your answer is: '+swim);
-
+function Question4 (swim) {
 
 switch (swim.toUpperCase()) {
     case 'YES':
@@ -96,14 +108,16 @@ switch (swim.toUpperCase()) {
         default:
             alert('Please Take care to your self :)');
 }
+}
+
+let swim = prompt('Do I like swim? Please answer yes or no y/n !');
+console.log('Your amswer is: '+swim);
+alert('Your answer is: '+swim);
+
+Question4 (swim);
 
 
-
-
-let study = prompt('Did I study  accounting in universty? Please answer yes or no y/n !');
-console.log('Your amswer is: '+study);
-alert('Your answer is: '+study);
-
+function Question5 (study) {
 
 switch (study.toUpperCase()) {
     case 'YES':
@@ -120,9 +134,18 @@ switch (study.toUpperCase()) {
         default:
             alert('Please Take care to your self :)');
 }
+}
 
-let count =0;
-  let myOld = Number(prompt('How old I am ?'));
+let study = prompt('Did I study  accounting in universty? Please answer yes or no y/n !');
+console.log('Your amswer is: '+study);
+alert('Your answer is: '+study);
+
+Question5 (study);
+
+
+
+function Question6 (myOld) {
+
   while (!myOld) {
          myOld = Number(prompt('How old I am ?'));
          }
@@ -166,5 +189,9 @@ let count =0;
     alert('You Did A Great Job , Thank You ' + userName +' :)');
 }
 
-    
-Qustions();
+let count =0;
+  let myOld = Number(prompt('How old I am ?'));
+
+  Question6 (myOld);
+
+
