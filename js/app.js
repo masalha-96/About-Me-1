@@ -3,7 +3,7 @@
 
 
 
-    let score = 0;
+let score = 0;
 let userName = prompt('Hello, Could you please enter your name');
 console.log('Your name is : '+userName);
 alert('Hello '+userName +' Welcome to my website, best wishes :) ');
@@ -169,7 +169,7 @@ function Question6 (myOld) {
 
 
   while (!myOld) {
-         myOld = Number(prompt('How old I am ? \n Please make sure your answer is a NUMBER'));
+         myOld = Number(prompt('How old I am ? \nPlease make sure your answer is a NUMBER!'));
          }
      for (let i = 0; i < 3; i++) 
      {
@@ -180,7 +180,7 @@ function Question6 (myOld) {
                  else
                   {alert('Your guess is too low');}
         count=count+1;
-        myOld = Number(prompt('How old I am ?  \n Please make sure your answer is a NUMBER '));}
+        myOld = Number(prompt('How old I am ? \nPlease make sure your answer is a NUMBER!'));}
            else
            {alert('hello my old is correct is ' + myOld );
            score++;
